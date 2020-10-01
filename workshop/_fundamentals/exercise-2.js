@@ -6,7 +6,14 @@
 // - if any of the values in either array is not strings, return undefined.
 
 const combineArrays = (arr1, arr2) => {
-  // Insert missing solution please
+  const newArr = arr1.concat(arr2)
+  newArr.forEach(element => {
+    if (typeof element !== "string"){
+      return undefined
+    }
+  });
+  let result = newArr.sort() 
+  return result
 };
 
 // 2. Do a console.log to verify your function.
