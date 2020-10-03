@@ -10,7 +10,7 @@ const letterCount = (arr) => {
 };
 
 // 2. Do a console.log to verify your function.
-
+console.log(letterCount(["burger", "beer"]))
 // 3. Test your function.
 // Look for the corresponding exercise file in the __tests__ folder.
 // Add some test cases in the test. The first one is done for you.

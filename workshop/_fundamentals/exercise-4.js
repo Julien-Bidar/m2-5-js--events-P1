@@ -6,11 +6,15 @@
 // - If the provided key is not any of the objects, return null for that value;
 
 const getValues = (arr, key) => {
-  // Insert missing solution please
+  let newArr = arr.map((person)=>{
+    return person[key]
+  })
+  
+  return newArr
 };
 
 // 2. Do a console.log to verify your function.
-
+console.log(getValues([{name: "chris", age: 36}, {name: "liv", age: 23}, {name: "dave", age: 78}, "name"]))
 // 3. Test your function.
 // Look for the corresponding exercise file in the __tests__ folder.
 // Add some test cases in the test. The first one is done for you.

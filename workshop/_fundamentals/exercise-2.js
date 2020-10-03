@@ -17,6 +17,7 @@ const combineArrays = (arr1, arr2) => {
 };
 
 // 2. Do a console.log to verify your function.
+console.log(combineArrays(["tom", "hammer"], ["car", "bike"]))
 
 // 3. Test your function.
 // Look for the corresponding exercise file in the __tests__ folder.
