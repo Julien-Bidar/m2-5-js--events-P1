@@ -6,7 +6,7 @@ div.style.textAlign = "center"
 
 
 const clickFunc = (event) => {
-    console.log(event.target)
+    //console.log(event.target)
     event.target.style.backgroundColor = "green";
 }
 
